@@ -157,6 +157,7 @@ namespace TimeAttendanceManager
             lblPhieuChamCong.ForeColor = Color.Gold; 
             lblTongHop.Font = new Font(lblTongHop.Font, FontStyle.Regular);
             lblTongHop.ForeColor = Color.White;
+            lblForm.Text = "Tạo phiếu";
             btnTaoPhieu.Visible = true;
             await LoadRecordsAsync(); 
 
@@ -170,25 +171,28 @@ namespace TimeAttendanceManager
             lblPhieuChamCong.Font = new Font(lblPhieuChamCong.Font, FontStyle.Regular);
             lblPhieuChamCong.ForeColor = Color.White;
             btnTaoPhieu.Visible = false;
+            lblForm.Text = "Tổng hợp";
             gridRecords.Columns.Clear();
             gridRecords.DataSource = null;
 
             var records = await _repository.GetAllAsync();
             var summary = records
-                .GroupBy(r => new
-                {
-                    Week = CultureInfo.CurrentCulture.Calendar.GetWeekOfYear(r.Date, CalendarWeekRule.FirstDay, DayOfWeek.Monday),
-                    Month = r.Date.Month
-                })
-                .Select((g, index) => new
-                {
-                    STT = index + 1,
-                    Tuan = g.Key.Week,
-                    Thang = g.Key.Month,
-                    TongGio = Math.Round(g.Sum(x => x.TotalHours), 2)
-                })
-                .ToList();
-
+                        .Select(r => new
+                        {
+                            Week = CultureInfo.CurrentCulture.Calendar.GetWeekOfYear(
+                                r.Date, CalendarWeekRule.FirstDay, DayOfWeek.Monday),
+                            Month = r.Date.Month,
+                            Hours = (r.TimeOut - r.TimeIn).TotalHours
+                        })
+                        .GroupBy(x => new { x.Week, x.Month })
+                        .Select((g, index) => new
+                        {
+                            STT = index + 1,
+                            Tuan = g.Key.Week,
+                            Thang = g.Key.Month,
+                            TongGio = Math.Round(g.Sum(x => x.Hours), 2)
+                        })
+                        .ToList();
             gridRecords.DataSource = summary;
         }
     }

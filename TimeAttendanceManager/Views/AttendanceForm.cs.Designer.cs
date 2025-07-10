@@ -33,7 +33,7 @@
             this.lblTongHop = new System.Windows.Forms.Label();
             this.lblPhieuChamCong = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblForm = new System.Windows.Forms.Label();
             this.btnTaoPhieu = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.gridRecords)).BeginInit();
             this.panel1.SuspendLayout();
@@ -94,15 +94,15 @@
             this.label3.TabIndex = 0;
             this.label3.Text = "Menu";
             // 
-            // label1
+            // lblForm
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(454, 23);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(65, 13);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "Tạo Phiếu";
+            this.lblForm.AutoSize = true;
+            this.lblForm.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblForm.Location = new System.Drawing.Point(454, 23);
+            this.lblForm.Name = "lblForm";
+            this.lblForm.Size = new System.Drawing.Size(65, 13);
+            this.lblForm.TabIndex = 4;
+            this.lblForm.Text = "Tạo Phiếu";
             // 
             // btnTaoPhieu
             // 
@@ -123,7 +123,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1041, 624);
             this.Controls.Add(this.btnTaoPhieu);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblForm);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.gridRecords);
             this.Name = "AttendanceForm";
@@ -140,7 +140,7 @@
 
         private System.Windows.Forms.DataGridView gridRecords;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblForm;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label lblTongHop;
         private System.Windows.Forms.Label lblPhieuChamCong;
