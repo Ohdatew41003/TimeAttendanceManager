@@ -15,6 +15,13 @@ namespace TimeAttendanceManager
         public AttendanceForm()
         {
             InitializeComponent();
+            this.Load += AttendanceForm_Load;
         }
+
+        private void AttendanceForm_Load(object sender, EventArgs e)
+        {
+     
+        }
+
     }
 }
