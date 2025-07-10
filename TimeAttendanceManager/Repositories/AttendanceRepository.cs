@@ -13,11 +13,13 @@ namespace TimeAttendanceManager.Repositories
     {
         private readonly IMongoCollection<AttendanceRecord> _collection;
 
-        public AttendanceRepository()
+        public AttendanceRepository(IConfiguration config)
         {
-            var connectionString = "mongodb+srv://ohdatewdev:9t43jJaDWuDoLDSX@test.r7osdbc.mongodb.net/?retryWrites=true&w=majority&appName=Test";
+            var connectionString = config.GetConnectionString("MongoDB");
+            var dbName = config["MongoDB:Database"];
+
             var client = new MongoClient(connectionString);
-            var database = client.GetDatabase("TimeAttendanceDB");
+            var database = client.GetDatabase(dbName);
             _collection = database.GetCollection<AttendanceRecord>("AttendanceRecords");
         }
         public async Task<List<AttendanceRecord>> GetAllAsync() =>

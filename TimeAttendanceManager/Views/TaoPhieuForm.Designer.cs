@@ -37,7 +37,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.btnLuu = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label6 = new System.Windows.Forms.Label();
+            this.lblTongGioLam = new System.Windows.Forms.Label();
             this.dtOut = new System.Windows.Forms.DateTimePicker();
             this.dtIn = new System.Windows.Forms.DateTimePicker();
             this.groupBox1.SuspendLayout();
@@ -110,11 +110,11 @@
             this.btnLuu.TabIndex = 7;
             this.btnLuu.Text = "Lưu và đóng form";
             this.btnLuu.UseVisualStyleBackColor = true;
-            this.btnLuu.Click += new System.EventHandler(this.btnLuu_Click_1);
+            this.btnLuu.Click += new System.EventHandler(this.btnLuu_Click);
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.label6);
+            this.groupBox1.Controls.Add(this.lblTongGioLam);
             this.groupBox1.Controls.Add(this.dtOut);
             this.groupBox1.Controls.Add(this.dtIn);
             this.groupBox1.Controls.Add(this.btnLuu);
@@ -132,14 +132,14 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Tạo Phiếu mới";
             // 
-            // label6
+            // lblTongGioLam
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(148, 240);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(35, 13);
-            this.label6.TabIndex = 10;
-            this.label6.Text = "label6";
+            this.lblTongGioLam.AutoSize = true;
+            this.lblTongGioLam.Location = new System.Drawing.Point(148, 240);
+            this.lblTongGioLam.Name = "lblTongGioLam";
+            this.lblTongGioLam.Size = new System.Drawing.Size(13, 13);
+            this.lblTongGioLam.TabIndex = 10;
+            this.lblTongGioLam.Text = "0";
             // 
             // dtOut
             // 
@@ -182,7 +182,7 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btnLuu;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label lblTongGioLam;
         private System.Windows.Forms.DateTimePicker dtOut;
         private System.Windows.Forms.DateTimePicker dtIn;
     }

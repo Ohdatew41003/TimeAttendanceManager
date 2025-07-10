@@ -21,11 +21,36 @@ namespace TimeAttendanceManager.Views
         {
             InitializeComponent();
             _repository = repo;
+
+            // Gắn sự kiện để tự động cập nhật giờ làm
+            dtIn.ValueChanged += DtTimeChanged;
+            dtOut.ValueChanged += DtTimeChanged;
         }
 
+      
 
+        private void DtTimeChanged(object sender, EventArgs e)
+        {
+            UpdateTongGioLam();
+        }
 
-        private async void btnLuu_Click_1(object sender, EventArgs e)
+        private void UpdateTongGioLam()
+        {
+            TimeSpan timeIn = dtIn.Value.TimeOfDay;
+            TimeSpan timeOut = dtOut.Value.TimeOfDay;
+
+            if (timeOut > timeIn)
+            {
+                TimeSpan duration = timeOut - timeIn;
+                lblTongGioLam.Text = $"{duration.TotalHours:0.##} giờ";
+            }
+            else
+            {
+                lblTongGioLam.Text = "0 giờ";
+            }
+        }
+
+        private async void btnLuu_Click(object sender, EventArgs e)
         {
             string person = txtPerson.Text;
             DateTime date = dtDate.Value.Date;
@@ -49,9 +74,8 @@ namespace TimeAttendanceManager.Views
             await _repository.CreateAsync(record);
 
             MessageBox.Show("Tạo phiếu thành công");
-            this.DialogResult = DialogResult.OK; // để AttendanceForm biết reload
+            this.DialogResult = DialogResult.OK;
             this.Close();
         }
-
     }
 }

@@ -20,9 +20,16 @@ namespace TimeAttendanceManager
         public AttendanceForm()
         {
             InitializeComponent();
-            _repository = new AttendanceRepository();
+
+            var config = new ConfigurationBuilder()
+                .SetBasePath(AppDomain.CurrentDomain.BaseDirectory)
+                .AddJsonFile("appsettings.json")
+                .Build();
+
+            _repository = new AttendanceRepository(config); // ✅ truyền đúng tham số
             this.Load += AttendanceForm_Load;
         }
+
 
         private async void AttendanceForm_Load(object sender, EventArgs e)
         {
@@ -149,7 +156,8 @@ namespace TimeAttendanceManager
             lblPhieuChamCong.Font = new Font(lblPhieuChamCong.Font, FontStyle.Bold);
             lblPhieuChamCong.ForeColor = Color.Gold; 
             lblTongHop.Font = new Font(lblTongHop.Font, FontStyle.Regular);
-            lblTongHop.ForeColor = Color.White; 
+            lblTongHop.ForeColor = Color.White;
+            btnTaoPhieu.Visible = true;
             await LoadRecordsAsync(); 
 
         }
@@ -161,7 +169,7 @@ namespace TimeAttendanceManager
             lblTongHop.ForeColor = Color.Gold; 
             lblPhieuChamCong.Font = new Font(lblPhieuChamCong.Font, FontStyle.Regular);
             lblPhieuChamCong.ForeColor = Color.White;
-         
+            btnTaoPhieu.Visible = false;
             gridRecords.Columns.Clear();
             gridRecords.DataSource = null;
 
