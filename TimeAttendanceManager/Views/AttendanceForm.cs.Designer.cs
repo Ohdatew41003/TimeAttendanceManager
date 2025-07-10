@@ -69,6 +69,7 @@
             this.label4.Size = new System.Drawing.Size(63, 13);
             this.label4.TabIndex = 2;
             this.label4.Text = "Tổng Hợp";
+  
             // 
             // label2
             // 
@@ -80,6 +81,7 @@
             this.label2.Size = new System.Drawing.Size(107, 13);
             this.label2.TabIndex = 1;
             this.label2.Text = "Phiếu Chấm Công";
+   
             // 
             // label3
             // 

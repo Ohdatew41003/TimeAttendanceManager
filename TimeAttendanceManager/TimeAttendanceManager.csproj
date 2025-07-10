@@ -473,6 +473,12 @@
     <Compile Include="Repositories\IAttendanceRepository.cs" />
     <Compile Include="Services\AttendanceService.cs" />
     <Compile Include="Services\IAttendanceService.cs" />
+    <Compile Include="Views\SuaPhieuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\SuaPhieuForm.Designer.cs">
+      <DependentUpon>SuaPhieuForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\TaoPhieuForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -491,6 +497,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Views\SuaPhieuForm.resx">
+      <DependentUpon>SuaPhieuForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\TaoPhieuForm.resx">
       <DependentUpon>TaoPhieuForm.cs</DependentUpon>
     </EmbeddedResource>

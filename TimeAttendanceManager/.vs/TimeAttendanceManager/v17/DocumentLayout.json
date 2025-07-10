@@ -3,35 +3,43 @@
   "WorkspaceRootPath": "D:\\Tr\u00ECnh qu\u1EA3n l\u00FD ch\u1EA5m c\u00F4ng\\TimeAttendanceManager\\TimeAttendanceManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{566EFBC3-7630-4DA3-A0AF-03028CA7B701}|TimeAttendanceManager.csproj|d:\\tr\u00ECnh qu\u1EA3n l\u00FD ch\u1EA5m c\u00F4ng\\timeattendancemanager\\timeattendancemanager\\repositories\\attendancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{566EFBC3-7630-4DA3-A0AF-03028CA7B701}|TimeAttendanceManager.csproj|solutionrelative:repositories\\attendancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{566EFBC3-7630-4DA3-A0AF-03028CA7B701}|TimeAttendanceManager.csproj|D:\\Tr\u00ECnh qu\u1EA3n l\u00FD ch\u1EA5m c\u00F4ng\\TimeAttendanceManager\\TimeAttendanceManager\\views\\attendanceform.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{566EFBC3-7630-4DA3-A0AF-03028CA7B701}|TimeAttendanceManager.csproj|solutionrelative:views\\attendanceform.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{566EFBC3-7630-4DA3-A0AF-03028CA7B701}|TimeAttendanceManager.csproj|d:\\tr\u00ECnh qu\u1EA3n l\u00FD ch\u1EA5m c\u00F4ng\\timeattendancemanager\\timeattendancemanager\\views\\attendanceform.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{566EFBC3-7630-4DA3-A0AF-03028CA7B701}|TimeAttendanceManager.csproj|D:\\Tr\u00ECnh qu\u1EA3n l\u00FD ch\u1EA5m c\u00F4ng\\TimeAttendanceManager\\TimeAttendanceManager\\views\\attendanceform.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{566EFBC3-7630-4DA3-A0AF-03028CA7B701}|TimeAttendanceManager.csproj|solutionrelative:views\\attendanceform.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{566EFBC3-7630-4DA3-A0AF-03028CA7B701}|TimeAttendanceManager.csproj|d:\\tr\u00ECnh qu\u1EA3n l\u00FD ch\u1EA5m c\u00F4ng\\timeattendancemanager\\timeattendancemanager\\models\\attendancerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{566EFBC3-7630-4DA3-A0AF-03028CA7B701}|TimeAttendanceManager.csproj|solutionrelative:models\\attendancerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{566EFBC3-7630-4DA3-A0AF-03028CA7B701}|TimeAttendanceManager.csproj|d:\\tr\u00ECnh qu\u1EA3n l\u00FD ch\u1EA5m c\u00F4ng\\timeattendancemanager\\timeattendancemanager\\views\\taophieuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{566EFBC3-7630-4DA3-A0AF-03028CA7B701}|TimeAttendanceManager.csproj|solutionrelative:views\\taophieuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{566EFBC3-7630-4DA3-A0AF-03028CA7B701}|TimeAttendanceManager.csproj|d:\\tr\u00ECnh qu\u1EA3n l\u00FD ch\u1EA5m c\u00F4ng\\timeattendancemanager\\timeattendancemanager\\views\\attendanceform.cs.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{566EFBC3-7630-4DA3-A0AF-03028CA7B701}|TimeAttendanceManager.csproj|solutionrelative:views\\attendanceform.cs.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{566EFBC3-7630-4DA3-A0AF-03028CA7B701}|TimeAttendanceManager.csproj|d:\\tr\u00ECnh qu\u1EA3n l\u00FD ch\u1EA5m c\u00F4ng\\timeattendancemanager\\timeattendancemanager\\views\\taophieuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{566EFBC3-7630-4DA3-A0AF-03028CA7B701}|TimeAttendanceManager.csproj|D:\\Tr\u00ECnh qu\u1EA3n l\u00FD ch\u1EA5m c\u00F4ng\\TimeAttendanceManager\\TimeAttendanceManager\\views\\attendanceform.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{566EFBC3-7630-4DA3-A0AF-03028CA7B701}|TimeAttendanceManager.csproj|solutionrelative:views\\attendanceform.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{566EFBC3-7630-4DA3-A0AF-03028CA7B701}|TimeAttendanceManager.csproj|d:\\tr\u00ECnh qu\u1EA3n l\u00FD ch\u1EA5m c\u00F4ng\\timeattendancemanager\\timeattendancemanager\\views\\suaphieuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{566EFBC3-7630-4DA3-A0AF-03028CA7B701}|TimeAttendanceManager.csproj|solutionrelative:views\\suaphieuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{566EFBC3-7630-4DA3-A0AF-03028CA7B701}|TimeAttendanceManager.csproj|d:\\tr\u00ECnh qu\u1EA3n l\u00FD ch\u1EA5m c\u00F4ng\\timeattendancemanager\\timeattendancemanager\\views\\suaphieuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{566EFBC3-7630-4DA3-A0AF-03028CA7B701}|TimeAttendanceManager.csproj|solutionrelative:views\\suaphieuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{566EFBC3-7630-4DA3-A0AF-03028CA7B701}|TimeAttendanceManager.csproj|d:\\tr\u00ECnh qu\u1EA3n l\u00FD ch\u1EA5m c\u00F4ng\\timeattendancemanager\\timeattendancemanager\\repositories\\attendancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{566EFBC3-7630-4DA3-A0AF-03028CA7B701}|TimeAttendanceManager.csproj|solutionrelative:repositories\\attendancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{566EFBC3-7630-4DA3-A0AF-03028CA7B701}|TimeAttendanceManager.csproj|D:\\Tr\u00ECnh qu\u1EA3n l\u00FD ch\u1EA5m c\u00F4ng\\TimeAttendanceManager\\TimeAttendanceManager\\views\\taophieuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{566EFBC3-7630-4DA3-A0AF-03028CA7B701}|TimeAttendanceManager.csproj|solutionrelative:views\\taophieuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{566EFBC3-7630-4DA3-A0AF-03028CA7B701}|TimeAttendanceManager.csproj|D:\\Tr\u00ECnh qu\u1EA3n l\u00FD ch\u1EA5m c\u00F4ng\\TimeAttendanceManager\\TimeAttendanceManager\\models\\attendancerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{566EFBC3-7630-4DA3-A0AF-03028CA7B701}|TimeAttendanceManager.csproj|solutionrelative:models\\attendancerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{566EFBC3-7630-4DA3-A0AF-03028CA7B701}|TimeAttendanceManager.csproj|D:\\Tr\u00ECnh qu\u1EA3n l\u00FD ch\u1EA5m c\u00F4ng\\TimeAttendanceManager\\TimeAttendanceManager\\views\\taophieuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{566EFBC3-7630-4DA3-A0AF-03028CA7B701}|TimeAttendanceManager.csproj|solutionrelative:views\\taophieuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{566EFBC3-7630-4DA3-A0AF-03028CA7B701}|TimeAttendanceManager.csproj|d:\\tr\u00ECnh qu\u1EA3n l\u00FD ch\u1EA5m c\u00F4ng\\timeattendancemanager\\timeattendancemanager\\mongo\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{566EFBC3-7630-4DA3-A0AF-03028CA7B701}|TimeAttendanceManager.csproj|D:\\Tr\u00ECnh qu\u1EA3n l\u00FD ch\u1EA5m c\u00F4ng\\TimeAttendanceManager\\TimeAttendanceManager\\mongo\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{566EFBC3-7630-4DA3-A0AF-03028CA7B701}|TimeAttendanceManager.csproj|solutionrelative:mongo\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -46,11 +54,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Tr\u00ECnh qu\u1EA3n l\u00FD ch\u1EA5m c\u00F4ng\\TimeAttendanceManager\\TimeAttendanceManager\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -59,18 +67,17 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-10T03:39:17.94Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AttendanceForm.cs.cs",
               "DocumentMoniker": "D:\\Tr\u00ECnh qu\u1EA3n l\u00FD ch\u1EA5m c\u00F4ng\\TimeAttendanceManager\\TimeAttendanceManager\\Views\\AttendanceForm.cs.cs",
               "RelativeDocumentMoniker": "Views\\AttendanceForm.cs.cs",
               "ToolTip": "D:\\Tr\u00ECnh qu\u1EA3n l\u00FD ch\u1EA5m c\u00F4ng\\TimeAttendanceManager\\TimeAttendanceManager\\Views\\AttendanceForm.cs.cs",
               "RelativeToolTip": "Views\\AttendanceForm.cs.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAcwB4AAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAwwHQAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-10T03:39:18.85Z",
               "IsPinned": true,
@@ -78,7 +85,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "AttendanceForm.cs.cs [Design]",
               "DocumentMoniker": "D:\\Tr\u00ECnh qu\u1EA3n l\u00FD ch\u1EA5m c\u00F4ng\\TimeAttendanceManager\\TimeAttendanceManager\\Views\\AttendanceForm.cs.cs",
               "RelativeDocumentMoniker": "Views\\AttendanceForm.cs.cs",
@@ -91,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "TaoPhieuForm.cs [Design]",
               "DocumentMoniker": "D:\\Tr\u00ECnh qu\u1EA3n l\u00FD ch\u1EA5m c\u00F4ng\\TimeAttendanceManager\\TimeAttendanceManager\\Views\\TaoPhieuForm.cs",
               "RelativeDocumentMoniker": "Views\\TaoPhieuForm.cs",
@@ -104,33 +111,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "SuaPhieuForm.cs [Design]",
+              "DocumentMoniker": "D:\\Tr\u00ECnh qu\u1EA3n l\u00FD ch\u1EA5m c\u00F4ng\\TimeAttendanceManager\\TimeAttendanceManager\\Views\\SuaPhieuForm.cs",
+              "RelativeDocumentMoniker": "Views\\SuaPhieuForm.cs",
+              "ToolTip": "D:\\Tr\u00ECnh qu\u1EA3n l\u00FD ch\u1EA5m c\u00F4ng\\TimeAttendanceManager\\TimeAttendanceManager\\Views\\SuaPhieuForm.cs [Design]",
+              "RelativeToolTip": "Views\\SuaPhieuForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T05:27:24.567Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AttendanceForm.cs.Designer.cs",
+              "DocumentMoniker": "D:\\Tr\u00ECnh qu\u1EA3n l\u00FD ch\u1EA5m c\u00F4ng\\TimeAttendanceManager\\TimeAttendanceManager\\Views\\AttendanceForm.cs.Designer.cs",
+              "RelativeDocumentMoniker": "Views\\AttendanceForm.cs.Designer.cs",
+              "ToolTip": "D:\\Tr\u00ECnh qu\u1EA3n l\u00FD ch\u1EA5m c\u00F4ng\\TimeAttendanceManager\\TimeAttendanceManager\\Views\\AttendanceForm.cs.Designer.cs",
+              "RelativeToolTip": "Views\\AttendanceForm.cs.Designer.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAIwFMAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T05:38:04.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "AttendanceRepository.cs",
               "DocumentMoniker": "D:\\Tr\u00ECnh qu\u1EA3n l\u00FD ch\u1EA5m c\u00F4ng\\TimeAttendanceManager\\TimeAttendanceManager\\Repositories\\AttendanceRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\AttendanceRepository.cs",
               "ToolTip": "D:\\Tr\u00ECnh qu\u1EA3n l\u00FD ch\u1EA5m c\u00F4ng\\TimeAttendanceManager\\TimeAttendanceManager\\Repositories\\AttendanceRepository.cs",
               "RelativeToolTip": "Repositories\\AttendanceRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABNAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAMwB8AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-10T05:08:00.641Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AttendanceForm.cs.Designer.cs",
-              "DocumentMoniker": "D:\\Tr\u00ECnh qu\u1EA3n l\u00FD ch\u1EA5m c\u00F4ng\\TimeAttendanceManager\\TimeAttendanceManager\\Views\\AttendanceForm.cs.Designer.cs",
-              "RelativeDocumentMoniker": "Views\\AttendanceForm.cs.Designer.cs",
-              "ToolTip": "D:\\Tr\u00ECnh qu\u1EA3n l\u00FD ch\u1EA5m c\u00F4ng\\TimeAttendanceManager\\TimeAttendanceManager\\Views\\AttendanceForm.cs.Designer.cs",
-              "RelativeToolTip": "Views\\AttendanceForm.cs.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "SuaPhieuForm.cs",
+              "DocumentMoniker": "D:\\Tr\u00ECnh qu\u1EA3n l\u00FD ch\u1EA5m c\u00F4ng\\TimeAttendanceManager\\TimeAttendanceManager\\Views\\SuaPhieuForm.cs",
+              "RelativeDocumentMoniker": "Views\\SuaPhieuForm.cs",
+              "ToolTip": "D:\\Tr\u00ECnh qu\u1EA3n l\u00FD ch\u1EA5m c\u00F4ng\\TimeAttendanceManager\\TimeAttendanceManager\\Views\\SuaPhieuForm.cs",
+              "RelativeToolTip": "Views\\SuaPhieuForm.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAMwCgAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T05:12:10.189Z",
+              "WhenOpened": "2025-07-10T05:27:32.55Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "AttendanceRecord.cs",
               "DocumentMoniker": "D:\\Tr\u00ECnh qu\u1EA3n l\u00FD ch\u1EA5m c\u00F4ng\\TimeAttendanceManager\\TimeAttendanceManager\\Models\\AttendanceRecord.cs",
               "RelativeDocumentMoniker": "Models\\AttendanceRecord.cs",
@@ -138,12 +171,11 @@
               "RelativeToolTip": "Models\\AttendanceRecord.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T05:02:32.892Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T05:02:32.892Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "MongoDbContext.cs",
               "DocumentMoniker": "D:\\Tr\u00ECnh qu\u1EA3n l\u00FD ch\u1EA5m c\u00F4ng\\TimeAttendanceManager\\TimeAttendanceManager\\Mongo\\MongoDbContext.cs",
               "RelativeDocumentMoniker": "Mongo\\MongoDbContext.cs",
@@ -151,12 +183,11 @@
               "RelativeToolTip": "Mongo\\MongoDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T05:08:55.723Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T05:08:55.723Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "TaoPhieuForm.cs",
               "DocumentMoniker": "D:\\Tr\u00ECnh qu\u1EA3n l\u00FD ch\u1EA5m c\u00F4ng\\TimeAttendanceManager\\TimeAttendanceManager\\Views\\TaoPhieuForm.cs",
               "RelativeDocumentMoniker": "Views\\TaoPhieuForm.cs",

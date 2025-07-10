@@ -192,3 +192,4 @@ D:\Trình quản lý chấm công\TimeAttendanceManager\TimeAttendanceManager\ob
 D:\Trình quản lý chấm công\TimeAttendanceManager\TimeAttendanceManager\obj\Debug\TimeAttendanceManager.exe
 D:\Trình quản lý chấm công\TimeAttendanceManager\TimeAttendanceManager\obj\Debug\TimeAttendanceManager.pdb
 D:\Trình quản lý chấm công\TimeAttendanceManager\TimeAttendanceManager\obj\Debug\TimeAttendanceManager.exe.config
+D:\Trình quản lý chấm công\TimeAttendanceManager\TimeAttendanceManager\obj\Debug\TimeAttendanceManager.Views.SuaPhieuForm.resources
