@@ -30,8 +30,8 @@
         {
             this.gridRecords = new System.Windows.Forms.DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lblTongHop = new System.Windows.Forms.Label();
+            this.lblPhieuChamCong = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.btnTaoPhieu = new System.Windows.Forms.Button();
@@ -51,37 +51,37 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.MediumPurple;
-            this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.lblTongHop);
+            this.panel1.Controls.Add(this.lblPhieuChamCong);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Location = new System.Drawing.Point(23, 64);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(150, 206);
             this.panel1.TabIndex = 2;
             // 
-            // label4
+            // lblTongHop
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label4.Location = new System.Drawing.Point(84, 73);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(63, 13);
-            this.label4.TabIndex = 2;
-            this.label4.Text = "Tổng Hợp";
-  
+            this.lblTongHop.AutoSize = true;
+            this.lblTongHop.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTongHop.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lblTongHop.Location = new System.Drawing.Point(84, 73);
+            this.lblTongHop.Name = "lblTongHop";
+            this.lblTongHop.Size = new System.Drawing.Size(63, 13);
+            this.lblTongHop.TabIndex = 2;
+            this.lblTongHop.Text = "Tổng Hợp";
+            this.lblTongHop.Click += new System.EventHandler(this.lblTongHop_Click);
             // 
-            // label2
+            // lblPhieuChamCong
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label2.Location = new System.Drawing.Point(40, 37);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(107, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Phiếu Chấm Công";
-   
+            this.lblPhieuChamCong.AutoSize = true;
+            this.lblPhieuChamCong.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPhieuChamCong.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lblPhieuChamCong.Location = new System.Drawing.Point(40, 37);
+            this.lblPhieuChamCong.Name = "lblPhieuChamCong";
+            this.lblPhieuChamCong.Size = new System.Drawing.Size(107, 13);
+            this.lblPhieuChamCong.TabIndex = 1;
+            this.lblPhieuChamCong.Text = "Phiếu Chấm Công";
+            this.lblPhieuChamCong.Click += new System.EventHandler(this.lblPhieuChamCong_Click);
             // 
             // label3
             // 
@@ -142,8 +142,8 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblTongHop;
+        private System.Windows.Forms.Label lblPhieuChamCong;
         private System.Windows.Forms.Button btnTaoPhieu;
     }
 }

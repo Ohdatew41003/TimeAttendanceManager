@@ -1,11 +1,15 @@
 ﻿using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
+using System.Drawing;
+using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using TimeAttendanceManager.Models;
 using TimeAttendanceManager.Repositories;
 using TimeAttendanceManager.Views;
+using System.Globalization;
+
 
 namespace TimeAttendanceManager
 {
@@ -16,21 +20,15 @@ namespace TimeAttendanceManager
         public AttendanceForm()
         {
             InitializeComponent();
-
-            // Khởi tạo AttendanceRepository dùng chuỗi kết nối trực tiếp
             _repository = new AttendanceRepository();
-
-            // Load dữ liệu khi mở form
             this.Load += AttendanceForm_Load;
         }
 
-        // Load dữ liệu từ MongoDB khi form mở
         private async void AttendanceForm_Load(object sender, EventArgs e)
         {
             await LoadRecordsAsync();
         }
 
-        // Xử lý khi nhấn nút "Tạo Phiếu"
         private async void btnTaoPhieu_Click(object sender, EventArgs e)
         {
             var form = new TaoPhieuForm(_repository); // Truyền repository vào form tạo phiếu
@@ -40,17 +38,45 @@ namespace TimeAttendanceManager
             }
         }
 
-        // Load tất cả phiếu từ MongoDB lên DataGridView
+
         private async Task LoadRecordsAsync()
         {
             try
             {
                 var records = await _repository.GetAllAsync();
+                var list = records
+                    .Select((r, index) => new
+                    {
+                        STT = index + 1,
+                        Ngay = r.Date.ToString("dd/MM/yyyy"),
+                        Nguoi = r.Person,
+                        TDVao = r.TimeIn.ToString(@"hh\:mm"),
+                        TDRa = r.TimeOut.ToString(@"hh\:mm"),
+                        TongGioLam = Math.Round(r.TotalHours, 2),
+                        Id = r.Id,
+                        OriginalRecord = r // giữ lại để thao tác sửa/xoá
+                    })
+                    .ToList();
 
-                gridRecords.Columns.Clear(); // ❗ xoá toàn bộ cột cũ
-                gridRecords.DataSource = records;
+                gridRecords.Columns.Clear();
+                gridRecords.DataSource = list;
 
-                AddActionButtons(); // ➕ thêm nút sau khi gán datasource
+             
+                gridRecords.Columns["STT"].HeaderText = "STT";
+                gridRecords.Columns["Ngay"].HeaderText = "Ngày";
+                gridRecords.Columns["Nguoi"].HeaderText = "Người";
+                gridRecords.Columns["TDVao"].HeaderText = "TĐ vào";
+                gridRecords.Columns["TDRa"].HeaderText = "TĐ ra";
+                gridRecords.Columns["TongGioLam"].HeaderText = "Tổng Giờ Làm";
+
+            
+                gridRecords.Columns["Id"].Visible = false;
+                gridRecords.Columns["OriginalRecord"].Visible = false;
+
+                AddActionButtons();
+
+
+         
             }
             catch (Exception ex)
             {
@@ -60,11 +86,14 @@ namespace TimeAttendanceManager
 
 
 
+
         private void AddActionButtons()
         {
+            gridRecords.CellClick -= gridRecords_CellClick;
+            gridRecords.CellClick += gridRecords_CellClick; 
             if (!gridRecords.Columns.Contains("Edit"))
             {
-                DataGridViewButtonColumn btnEdit = new DataGridViewButtonColumn
+                var btnEdit = new DataGridViewButtonColumn
                 {
                     HeaderText = "Sửa",
                     Name = "Edit",
@@ -76,7 +105,7 @@ namespace TimeAttendanceManager
 
             if (!gridRecords.Columns.Contains("Delete"))
             {
-                DataGridViewButtonColumn btnDelete = new DataGridViewButtonColumn
+                var btnDelete = new DataGridViewButtonColumn
                 {
                     HeaderText = "Xoá",
                     Name = "Delete",
@@ -85,18 +114,18 @@ namespace TimeAttendanceManager
                 };
                 gridRecords.Columns.Add(btnDelete);
             }
-
-            gridRecords.CellClick += gridRecords_CellClick;
         }
+
         private async void gridRecords_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             if (e.RowIndex >= 0)
             {
-                var selectedRecord = (AttendanceRecord)gridRecords.Rows[e.RowIndex].DataBoundItem;
+                var row = gridRecords.Rows[e.RowIndex];
+                var record = (AttendanceRecord)row.Cells["OriginalRecord"].Value;
 
                 if (gridRecords.Columns[e.ColumnIndex].Name == "Edit")
                 {
-                    var form = new SuaPhieuForm(_repository, selectedRecord);
+                    var form = new SuaPhieuForm(_repository, record);
                     if (form.ShowDialog() == DialogResult.OK)
                     {
                         await LoadRecordsAsync();
@@ -107,13 +136,52 @@ namespace TimeAttendanceManager
                     var confirm = MessageBox.Show("Bạn có chắc muốn xoá phiếu này không?", "Xác nhận", MessageBoxButtons.YesNo);
                     if (confirm == DialogResult.Yes)
                     {
-                        await _repository.DeleteAsync(selectedRecord.Id);
+                        await _repository.DeleteAsync(record.Id);
                         await LoadRecordsAsync();
                     }
                 }
             }
         }
 
-   
+
+        private async void lblPhieuChamCong_Click(object sender, EventArgs e)
+        {
+            lblPhieuChamCong.Font = new Font(lblPhieuChamCong.Font, FontStyle.Bold);
+            lblPhieuChamCong.ForeColor = Color.Gold; 
+            lblTongHop.Font = new Font(lblTongHop.Font, FontStyle.Regular);
+            lblTongHop.ForeColor = Color.White; 
+            await LoadRecordsAsync(); 
+
+        }
+
+        private async void lblTongHop_Click(object sender, EventArgs e)
+        {
+            
+            lblTongHop.Font = new Font(lblTongHop.Font, FontStyle.Bold);
+            lblTongHop.ForeColor = Color.Gold; 
+            lblPhieuChamCong.Font = new Font(lblPhieuChamCong.Font, FontStyle.Regular);
+            lblPhieuChamCong.ForeColor = Color.White;
+         
+            gridRecords.Columns.Clear();
+            gridRecords.DataSource = null;
+
+            var records = await _repository.GetAllAsync();
+            var summary = records
+                .GroupBy(r => new
+                {
+                    Week = CultureInfo.CurrentCulture.Calendar.GetWeekOfYear(r.Date, CalendarWeekRule.FirstDay, DayOfWeek.Monday),
+                    Month = r.Date.Month
+                })
+                .Select((g, index) => new
+                {
+                    STT = index + 1,
+                    Tuan = g.Key.Week,
+                    Thang = g.Key.Month,
+                    TongGio = Math.Round(g.Sum(x => x.TotalHours), 2)
+                })
+                .ToList();
+
+            gridRecords.DataSource = summary;
+        }
     }
 }
