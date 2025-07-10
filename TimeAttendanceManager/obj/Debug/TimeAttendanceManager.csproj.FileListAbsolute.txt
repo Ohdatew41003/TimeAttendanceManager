@@ -1,0 +1,4 @@
+D:\Trình quản lý chấm công\TimeAttendanceManager\TimeAttendanceManager\obj\Debug\TimeAttendanceManager.csproj.AssemblyReference.cache
+D:\Trình quản lý chấm công\TimeAttendanceManager\TimeAttendanceManager\obj\Debug\TimeAttendanceManager.Properties.Resources.resources
+D:\Trình quản lý chấm công\TimeAttendanceManager\TimeAttendanceManager\obj\Debug\TimeAttendanceManager.csproj.GenerateResource.cache
+D:\Trình quản lý chấm công\TimeAttendanceManager\TimeAttendanceManager\obj\Debug\TimeAttendanceManager.csproj.CoreCompileInputs.cache

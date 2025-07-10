@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Tr\u00ECnh qu\u1EA3n l\u00FD ch\u1EA5m c\u00F4ng\\TimeAttendanceManager\\TimeAttendanceManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{566EFBC3-7630-4DA3-A0AF-03028CA7B701}|TimeAttendanceManager.csproj|d:\\tr\u00ECnh qu\u1EA3n l\u00FD ch\u1EA5m c\u00F4ng\\timeattendancemanager\\timeattendancemanager\\views\\attendanceform.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{566EFBC3-7630-4DA3-A0AF-03028CA7B701}|TimeAttendanceManager.csproj|solutionrelative:views\\attendanceform.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{566EFBC3-7630-4DA3-A0AF-03028CA7B701}|TimeAttendanceManager.csproj|D:\\Tr\u00ECnh qu\u1EA3n l\u00FD ch\u1EA5m c\u00F4ng\\TimeAttendanceManager\\TimeAttendanceManager\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{566EFBC3-7630-4DA3-A0AF-03028CA7B701}|TimeAttendanceManager.csproj|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{566EFBC3-7630-4DA3-A0AF-03028CA7B701}|TimeAttendanceManager.csproj|d:\\tr\u00ECnh qu\u1EA3n l\u00FD ch\u1EA5m c\u00F4ng\\timeattendancemanager\\timeattendancemanager\\views\\attendanceform.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{566EFBC3-7630-4DA3-A0AF-03028CA7B701}|TimeAttendanceManager.csproj|solutionrelative:views\\attendanceform.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Tr\u00ECnh qu\u1EA3n l\u00FD ch\u1EA5m c\u00F4ng\\TimeAttendanceManager\\TimeAttendanceManager\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Tr\u00ECnh qu\u1EA3n l\u00FD ch\u1EA5m c\u00F4ng\\TimeAttendanceManager\\TimeAttendanceManager\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T03:39:17.94Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AttendanceForm.cs.cs",
+              "DocumentMoniker": "D:\\Tr\u00ECnh qu\u1EA3n l\u00FD ch\u1EA5m c\u00F4ng\\TimeAttendanceManager\\TimeAttendanceManager\\Views\\AttendanceForm.cs.cs",
+              "RelativeDocumentMoniker": "Views\\AttendanceForm.cs.cs",
+              "ToolTip": "D:\\Tr\u00ECnh qu\u1EA3n l\u00FD ch\u1EA5m c\u00F4ng\\TimeAttendanceManager\\TimeAttendanceManager\\Views\\AttendanceForm.cs.cs",
+              "RelativeToolTip": "Views\\AttendanceForm.cs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T03:39:18.85Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AttendanceForm.cs.cs [Design]",
+              "DocumentMoniker": "D:\\Tr\u00ECnh qu\u1EA3n l\u00FD ch\u1EA5m c\u00F4ng\\TimeAttendanceManager\\TimeAttendanceManager\\Views\\AttendanceForm.cs.cs",
+              "RelativeDocumentMoniker": "Views\\AttendanceForm.cs.cs",
+              "ToolTip": "D:\\Tr\u00ECnh qu\u1EA3n l\u00FD ch\u1EA5m c\u00F4ng\\TimeAttendanceManager\\TimeAttendanceManager\\Views\\AttendanceForm.cs.cs [Design]",
+              "RelativeToolTip": "Views\\AttendanceForm.cs.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T04:12:11.76Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

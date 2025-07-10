@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36221.1 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeAttendanceManager", "TimeAttendanceManager.csproj", "{566EFBC3-7630-4DA3-A0AF-03028CA7B701}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{566EFBC3-7630-4DA3-A0AF-03028CA7B701}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{566EFBC3-7630-4DA3-A0AF-03028CA7B701}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{566EFBC3-7630-4DA3-A0AF-03028CA7B701}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{566EFBC3-7630-4DA3-A0AF-03028CA7B701}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {30D8355B-F63C-4DA5-B5E9-1FD1C5222AFC}
+	EndGlobalSection
+EndGlobal
